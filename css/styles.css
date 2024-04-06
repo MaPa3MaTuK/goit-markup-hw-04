@@ -510,7 +510,7 @@ address {
   border: 1px solid #2196f3;
 }
 
-.icon-logo:is(:hover, :focus) {
+.link-logo:is(:hover, :focus) .icon-logo {
   fill: #2196f3;
 }
 
