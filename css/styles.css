@@ -161,6 +161,9 @@ address {
 }
 
 .contact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 50px;
 }
 
@@ -183,10 +186,12 @@ address {
 
 .email-icon {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 .smartphone-icon {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 /**
@@ -382,7 +387,7 @@ address {
 .social-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 10px;
   align-items: center;
   margin-left: 32px;
   margin-right: 32px;
@@ -454,6 +459,7 @@ address {
   font-weight: 400;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 16px;
 }
 
 /**
@@ -547,6 +553,8 @@ address {
 .section .filter-main {
   background-color: var(--buttom-color-1);
   color: var(--main-color);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .filter-main:hover,
@@ -574,9 +582,11 @@ address {
 .footer-cont {
   display: flex;
   flex-direction: row;
-  justify-content: 70px;
-  align-items: center;
-  gap: 70px;
+  align-items: baseline;
+}
+
+.footer-contacts {
+  margin-right: 70px;
 }
 
 .promotion {
@@ -622,6 +632,7 @@ address {
   margin-left: 0;
   margin-right: 0;
   gap: 10px;
+  margin-bottom: 0;
 }
 
 .promo .link {
@@ -656,13 +667,14 @@ address {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.projects:hover,
-.projects:focus {
+.project-item:hover,
+.project-item:focus {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .project-item {
+  display: block;
   text-decoration: none;
 }
 
