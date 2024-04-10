@@ -163,7 +163,7 @@ address {
 .contact-item {
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   margin-right: 50px;
 }
 
@@ -173,7 +173,8 @@ address {
 
 .email,
 .phone-number {
-  display: block;
+  display: flex;
+  align-items: center;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -186,12 +187,12 @@ address {
 
 .email-icon {
   fill: currentColor;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .smartphone-icon {
   fill: currentColor;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 /**
